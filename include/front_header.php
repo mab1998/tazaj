@@ -76,5 +76,8 @@ if($_SERVER['REQUEST_URI'] !='/activate.php')
    
     <script src="app-assets/js/data-tables/datatable-advanced.js" type="text/javascript"></script>
 	<script src="app-assets/js/tag.js"></script>
+	
+	
+	
    
   </head>
