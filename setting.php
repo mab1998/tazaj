@@ -343,36 +343,7 @@ $con->query("update setting set one_key='".$oid."',one_hash='".$ohash."',r_key='
     </div>
    
    <?php 
- 
-<script src="app-assets/vendors/js/core/jquery-3.2.1.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/core/popper.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/core/bootstrap.min.js" type="text/javascript"></script>
-
-
-<script src="app-assets/vendors/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/prism.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/jquery.matchHeight-min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/screenfull.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/pace/pace.min.js" type="text/javascript"></script>
-
-<script src="app-assets/vendors/js/datatable/datatables.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/datatable/dataTables.buttons.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/datatable/buttons.flash.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/datatable/jszip.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/datatable/pdfmake.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/datatable/vfs_fonts.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/datatable/buttons.php5.min.js" type="text/javascript"></script>
-<script src="app-assets/vendors/js/datatable/buttons.print.min.js" type="text/javascript"></script>
-
-<script src="app-assets/js/app-sidebar.js" type="text/javascript"></script>
-<script src="app-assets/js/notification-sidebar.js" type="text/javascript"></script>
-<script src="app-assets/js/customizer.js" type="text/javascript"></script>
-
-<script src="app-assets/js/data-tables/datatable-advanced.js" type="text/javascript"></script>
-<script src="app-assets/js/tag.js"></script>
-
-
-
+  require 'include/js.php';
   ?>
     <script src="https://cdn.ckeditor.com/4.5.1/standard/ckeditor.js"></script>
  <script>
